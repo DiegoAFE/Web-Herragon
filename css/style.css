@@ -1,0 +1,373 @@
+.enlacesMenu{
+    color: rgb(255, 178, 35);
+    font-size: 22px;
+}
+.enlacesMenu:hover{
+    color: rgb(255, 178, 35);
+}
+.enlacesMenu:after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: rgb(255, 178, 35);
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform 1.5s;
+}
+.enlacesMenu:hover::after{
+    color: rgb(255, 178, 35);
+    transform: scale(1,1);
+}
+.nav-link{
+    color: rgb(255, 178, 35)  !important;
+}
+
+.carousel-img{
+    height: 930px;
+}
+.RS-NAV{
+    color: rgb(255, 178, 35);
+}
+.RS-NAV:hover{
+    color: rgb(255, 178, 35);
+}
+.RS-NAV::after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: rgb(255, 178, 35);
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform 1s;
+}
+.RS-NAV:hover::after{
+    color: rgb(255, 178, 35);
+    transform: scale(1,1);
+}
+.texto-carousel{
+    margin-bottom: 350px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 15px 15px;
+    z-index: 10;
+}
+
+nav.abajo{
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.315), 0 -6px 10px rgba(0, 0, 0, 0.342);
+}
+.boton-Span-canva{
+    color: rgb(255, 255, 255);
+}
+nav.abajo span.boton-Span-canva{ 
+    color:  rgb(0, 0, 0);
+}
+.boton-Span-canva-contacto{
+    color: rgb(0, 0, 0);
+}
+nav.abajo span.boton-Span-canva-contacto{ 
+    color:  rgb(0, 0, 0);
+}
+
+.carousel-desenfoque{
+    filter:blur(3.5px);
+}
+
+
+.contenedor{
+    position: relative;
+    height: 100vh;
+}
+.div-imagen{
+    background: url('../img/reformas-integrales-caja.jpg') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-imagen2{
+    background: url('/img/img_oficina.jpg') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-imagen-QS-1{
+    background: url('/img/img-QuienesSomos1.jpg') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-imagen-QS-2{
+    background: url('/img/img-QuienesSomos2.jpg') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-imagen-viviendas{
+    background: url('/img/img-viviendas.jpg') no-repeat center/cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-imagen-oficinas{
+    background: url('/img/car1.jpg') no-repeat center/cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.div-texto-QS-1{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 75%; 
+    z-index: 1;
+}
+.div-texto-QS-2{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 75%; 
+    z-index: 1;
+}
+.div-texto{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 45%; 
+    z-index: 1;
+}
+.div-texto2{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 45%;
+    z-index: 1;
+}
+.div-texto h2{
+    color: rgb(255, 178, 35);
+    font-weight: bold;
+}
+.div-texto2 h2{
+    color: rgb(255, 178, 35);
+    font-weight: bold;
+}
+.div-texto-QS-1 h2{
+    color: rgb(255, 178, 35);
+    font-weight: bold;
+}
+.div-texto-QS-2 h2{
+    color: rgb(255, 178, 35);
+    font-weight: bold;
+}
+.lista-reformas li::marker{
+    content: url(/img/check-circle.svg);
+}
+
+.banner-contacto{
+    width: 100%;
+    background-color: rgb(255, 178, 35);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-contacto a{
+    padding: 10px 20px;
+    border: 3px solid rgba(255, 255, 255, 0.712);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color all 1s ;
+}
+.banner-contacto a:hover{
+   transform: scale(1.1);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
+.banner-contacto2 {
+    width: 100%;
+    background-color: rgb(255, 178, 35);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Flecha para hacer la pagina hacia arriba*/
+a.scroll-top {
+    color: #fff;
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 50px;
+    right: 30px;
+    font-size: 25px;
+    background: #222;
+    border-radius: 5px !important;
+    text-align: center;
+    border: 1px solid hsla(0, 0%, 78%, 0.3)
+}
+a.scroll-top:hover{
+    background-color: rgb(255, 178, 35);
+}
+
+.footer-enlaces{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-enlaces:hover{
+    color: rgb(255, 178, 35);
+    text-decoration: solid underline rgb(255, 178, 35);
+}
+.header-QS{
+    width: 100%;
+    height: 920px;
+    background-color: #242527;
+}
+.contenedor-header-QS h1{
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+}
+.linea-underline-QS{
+    width: 200px;
+    border-top: 3px solid rgb(255, 178, 35);
+}
+
+.contacto-contenedor{
+    width: 100%;
+}
+.contacto-contenedor h1{
+    color: rgb(255, 178, 35);
+}
+.contacto-lista{
+    color: #000000;
+    text-decoration: none;
+}
+.contacto-lista:hover{
+    color: rgb(255, 178, 35);
+    font-weight: bold;
+}
+
+.RS-Contacto{
+    width: 40px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(255, 178, 35);
+}
+.instagram-contacto:hover{
+    cursor: pointer;
+    background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+        );
+}
+.tiktok-contacto:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.text-banner-contacto{
+    color: #ffffff;
+    font-size: 300%;
+}
+
+.modal-enlace{
+    text-decoration: none;
+}
+.modal-enlace p{
+    color: black;
+}
+.modal-enlace p:hover{
+    color: rgb(255, 178, 35);
+}
+.modal-enlace img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.defuminar-fondo{
+    backdrop-filter: blur(10px);
+}
+
+.modal-sublista li::marker{
+    content: "- ";
+}
+
+
+  /* Estilos personalizados para el offcanvas en tablet */
+  @media (min-width: 992px){
+    .offcanvas-body{
+        visibility: hidden;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .offcanvas.show {
+      visibility: visible;
+      transform: translateX(0);
+    }
+    .offcanvas .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+  }
+@media (max-width: 768px) {
+    /* Agrega estilos adicionales para pantallas más pequeñas si es necesario */
+    .div-texto {
+        max-width: 100%;
+       
+    }
+}
