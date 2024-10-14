@@ -97,7 +97,7 @@ nav.abajo span.boton-Span-canva-contacto{
     bottom: 0;
 }
 .div-imagen2{
-    background: url('/img/img_oficina.jpg') center/cover; /* IMAGEN TEMPORAL */
+    background: url('../img/img_oficina.jpg') center/cover; /* IMAGEN TEMPORAL */
     height: 100%;
     position: absolute;
     top: 0;
@@ -106,7 +106,7 @@ nav.abajo span.boton-Span-canva-contacto{
     bottom: 0;
 }
 .div-imagen-QS-1{
-    background: url('/img/img-QuienesSomos1.jpg') center/cover; /* IMAGEN TEMPORAL */
+    background: url('../img/img-QuienesSomos1.jpg') center/cover; /* IMAGEN TEMPORAL */
     height: 100%;
     position: absolute;
     top: 0;
@@ -115,7 +115,7 @@ nav.abajo span.boton-Span-canva-contacto{
     bottom: 0;
 }
 .div-imagen-QS-2{
-    background: url('/img/img-QuienesSomos2.jpg') center/cover; /* IMAGEN TEMPORAL */
+    background: url('../img/img-QuienesSomos2.jpg') center/cover; /* IMAGEN TEMPORAL */
     height: 100%;
     position: absolute;
     top: 0;
@@ -124,7 +124,7 @@ nav.abajo span.boton-Span-canva-contacto{
     bottom: 0;
 }
 .div-imagen-viviendas{
-    background: url('/img/img-viviendas.jpg') no-repeat center/cover;
+    background: url('../img/img-viviendas.jpg') no-repeat center/cover;
     height: 100%;
     position: absolute;
     top: 0;
@@ -133,7 +133,7 @@ nav.abajo span.boton-Span-canva-contacto{
     bottom: 0;
 }
 .div-imagen-oficinas{
-    background: url('/img/car1.jpg') no-repeat center/cover;
+    background: url('../img/car1.jpg') no-repeat center/cover;
     height: 100%;
     position: absolute;
     top: 0;
@@ -198,7 +198,7 @@ nav.abajo span.boton-Span-canva-contacto{
     font-weight: bold;
 }
 .lista-reformas li::marker{
-    content: url(/img/check-circle.svg);
+    content: url(../img/check-circle.svg);
 }
 
 .banner-contacto{
