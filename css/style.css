@@ -344,6 +344,45 @@ a.scroll-top:hover{
     content: "- ";
 }
 
+input{
+  
+	&:required:not(:placeholder-shown):valid {
+		border: 1px solid green;
+		color: black;
+		box-shadow: 0 0 0 2px green;
+	}
+  &:required:not(:placeholder-shown):invalid{
+    border: 1px solid red;
+		color: red;
+		box-shadow: 0 0 0 2px red;
+  }
+}
+
+.textAreaValid:valid{
+  border: 1px solid green;
+  color: black;
+  box-shadow: 0 0 0 2px green;
+}
+.textAreaInvalid{
+  border: 1px solid red;
+	color: red;
+	box-shadow: 0 0 0 2px red;
+}
+
+.boton{
+    background-color: rgb(255, 178, 35);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /*tamaño mediano*/
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.boton:hover{
+    background-color: rgb(255, 215, 0);
+    padding: 15px 25px;
+}
 
   /* Estilos personalizados para el offcanvas en tablet */
   @media (min-width: 992px){
@@ -364,6 +403,12 @@ a.scroll-top:hover{
       cursor: pointer;
     }
   }
+  @media screen and (min-width: 650px) {
+    .formResponsive{
+      margin: auto;
+      width: 60%;
+    }
+}
 @media (max-width: 768px) {
     /* Agrega estilos adicionales para pantallas más pequeñas si es necesario */
     .div-texto {
