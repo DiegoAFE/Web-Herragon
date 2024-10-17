@@ -343,7 +343,7 @@ a.scroll-top:hover{
 .modal-sublista li::marker{
     content: "- ";
 }
-
+/*
 input{
   
 	&:required:not(:placeholder-shown):valid {
@@ -358,6 +358,7 @@ input{
   }
 }
 
+
 .textAreaValid:valid{
   border: 1px solid green;
   color: black;
@@ -368,7 +369,7 @@ input{
 	color: red;
 	box-shadow: 0 0 0 2px red;
 }
-
+*/
 .boton{
     background-color: rgb(255, 178, 35);
     color: #ffffff;
