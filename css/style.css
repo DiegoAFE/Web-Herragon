@@ -375,6 +375,28 @@ a.scroll-top:hover{
     filter:brightness(75%);
 }
 
+.portada-reformas{
+    background: url('../img/mbecerra-PortadaReformas.JPG') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.caja-ref{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 178, 35, 0.904);
+    padding: 20px;
+    width: 45%; 
+    z-index: 1;
+}
+
+
 /*
 input{
   
