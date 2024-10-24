@@ -376,7 +376,7 @@ a.scroll-top:hover{
 }
 
 .portada-reformas{
-    background: url('../img/mbecerra-PortadaReformas.JPG') center/cover; /* IMAGEN TEMPORAL */
+    background: url('../img/reformas-portada.JPG') center/cover; /* IMAGEN TEMPORAL */
     height: 100%;
     position: absolute;
     top: 0;
@@ -396,6 +396,43 @@ a.scroll-top:hover{
     z-index: 1;
 }
 
+.imagen-PY-oficina{
+    background: url('../img/mbecerra-PortadaReformas.JPG') center/cover; /* IMAGEN TEMPORAL */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.caja-ref-ofi{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.966);
+    padding: 20px;
+    width: 45%;
+    height: 300px; 
+    z-index: 1;
+}
+
+.caja-ref-ofi a{
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    color: #000000;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid #000000;
+    transition: background-color 0.3s, transform 0.5s;
+}
+.caja-ref-ofi a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    transform: scale(1.1); /* Aumenta el tamaño */
+}
 
 /*
 input{
