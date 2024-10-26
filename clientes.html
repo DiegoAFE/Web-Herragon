@@ -19,8 +19,8 @@
         <link rel="icon" href="img/HERRAGON-PhotoRoom.png" type="image/x-icon">
     </head>
     <body>
-        <!--CABECERA-->
-        <header  id="scroll-NAV">
+        <!--CABECEREA-->
+        <header class="header-Ref" id="scroll-NAV">
             <!--NAV-->
             <nav class="navbar navbar-expand-lg w-100 fixed-top">
        
@@ -43,9 +43,23 @@
                           <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
                         </li>
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
+                          <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-auto-close="false" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
                           <div class="dropdown-menu" bis_skin_checked="1">
-                            <a class="dropdown-item enlacesMenu" href="reformas.html">Reformas</a>
+                            <ul class="navbar-nav me-auto m-auto">
+                              <li class="nav-item enlacesMenu">
+                                <a class="nav-link dropdown-toggle p-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reformas</a>
+                                <div class="collapse " id="collapseExample">
+                                  <div class="navbar-collapse">
+                                  <ul class="navbar-nav flex-column me-auto m-auto">
+                                    <li class="nav-item dropdown ">
+                                      <li class="dropdown-item enlacesMenu text-center"><a  class="nav-link  fs-5" href="reformas_vivienda.html">Viviendas</a></li>
+                                      <li class="dropdown-item enlacesMenu text-center"><a  class="nav-link  fs-5" href="reforma_oficina.html">Oficinas</a></li>
+                                    </li>
+                                  </ul>
+                                  </div>
+                                </div>
+                              </li>
+                          </ul>
                             <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
                             <div class="dropdown-divider" bis_skin_checked="1"></div>
                             <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obra nueva</a>
@@ -67,29 +81,45 @@
                     </div>
                   </div>
                    <!--FIN OFFCANVAS-->
-        
+                  
                   <div class="collapse navbar-collapse" id="navbarColor04" bis_skin_checked="1">
-                    <ul class="navbar-nav me-auto m-auto">
+                     <ul class="navbar-nav me-auto m-auto">
                       
                       <li class="nav-item">
                         <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
+                        <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-auto-close="false" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
                         <div class="dropdown-menu" bis_skin_checked="1">
-                          <a class="dropdown-item enlacesMenu" href="reformas.html">Reformas</a>
+                          <ul class="navbar-nav me-auto m-auto">
+                            <li class="nav-item enlacesMenu">
+                              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reformas</a>
+                              <div class="collapse " id="collapseExample">
+                                <div class="navbar-collapse">
+                                <ul class="navbar-nav flex-column me-auto m-auto">
+                                  <li class="nav-item dropdown ">
+                                    <li class="dropdown-item enlacesMenu"><a  class="nav-link  fs-5" href="reformas_vivienda.html">Viviendas</a></li>
+                                    <li class="dropdown-item enlacesMenu"><a  class="nav-link  fs-5" href="reforma_oficina.html">Oficinas</a></li>
+                                  </li>
+                                </ul>
+                                </div>
+                              </div>
+                            </li>
+                        </ul>
                           <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
                           <div class="dropdown-divider" bis_skin_checked="1"></div>
                           <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obra nueva</a>
                         </div>
                       </li>
+              
                       <li class="nav-item">
                         <a class="nav-link enlacesMenu" href="clientes.html">Clientes</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link enlacesMenu" href="contacto.html">Contacto</a>
                       </li>
-                    </ul>
+                    </ul> 
+                    
                     
                     <div class="mx-5">
                       <ul class="d-flex justify-content-end list-unstyled mt-3">
@@ -101,12 +131,6 @@
                 </div>
               </nav>
               <!--FIN NAV-->
-
-
-
-
-                </div>
-            </nav>
         </header>
 
 

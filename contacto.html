@@ -23,86 +23,117 @@
 <body>
      <!--CABECERA-->
      <header class="w-100" style="height: 150px;"  id="scroll-NAV">
-        <!--NAV-->
-        <nav class="navbar navbar-expand-lg w-100 fixed-top">
-         
-          <div class="d-flex m-auto" bis_skin_checked="1">
-            <a class="navbar-brand mt-4" href="index.html"><img src="img/logo/logo2.png" style="width: 250px;" alt="Logo"></a>
-            <!--OFFCANVAS-->
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-              <span class="bi bi-list fs-2 boton-Span-canva-contacto"></span>
-            </button>
-            <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title m-auto" id="offcanvasRightLabel"><a href="index.html"><img src="img/herragon_logo.png" style="width: 250px;" alt="Logo"></a></h5>
-                <button type="button" class="btn-close text-reset close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <!-- Contenido del offcanvas -->
-                <ul class="navbar-nav me-auto m-auto text-center">
-                
-                  <li class="nav-item">
-                    <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
-                    <div class="dropdown-menu" bis_skin_checked="1">
-                      <a class="dropdown-item enlacesMenu" href="reformas.html">Reformas</a>
-                      <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
-                      <div class="dropdown-divider" bis_skin_checked="1"></div>
-                      <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obr nueva</a>
+        <!--CABECEREA-->
+            <!--NAV-->
+            <nav class="navbar navbar-expand-lg w-100 fixed-top">
+       
+                <div class="d-flex m-auto" bis_skin_checked="1">
+                  <a class="navbar-brand mt-4" href="index.html"><img src="img/logo/logo2.png" style="width: 250px;" alt="Logo"></a>
+                  <!--OFFCANVAS-->
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title m-auto" id="offcanvasRightLabel"><a href="index.html"><img src="img/logo/logo2.png" style="width: 250px;" alt="Logo"></a></h5>
+                      <button type="button" class="btn-close text-reset close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link enlacesMenu" href="clientes.html">Clientes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link enlacesMenu" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-                <div class="mt-5">
-                  <ul class="d-flex justify-content-center align-items-center flex-column list-unstyled">
-                      <li class=""><a href="https://www.instagram.com/herragoncom/" target="_blank" class="bi bi-instagram RS-NAV" title="ver Instagram"></a></li>
-                      <li class=""><a href="https://www.tiktok.com/@herragon_reformas" target="_blank" class="bi bi-tiktok RS-NAV" title="ver Tiktok"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-             <!--FIN OFFCANVAS-->
-  
-            <div class="collapse navbar-collapse" id="navbarColor04" bis_skin_checked="1">
-              <ul class="navbar-nav me-auto m-auto">
-                
-                <li class="nav-item">
-                  <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
-                  <div class="dropdown-menu" bis_skin_checked="1">
-                    <a class="dropdown-item enlacesMenu" href="reformas.html">Reformas</a>
-                    <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
-                    <div class="dropdown-divider" bis_skin_checked="1"></div>
-                    <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obra nueva</a>
+                    <div class="offcanvas-body">
+                      <!-- Contenido del offcanvas -->
+                      <ul class="navbar-nav me-auto m-auto text-center">
+                      
+                        <li class="nav-item">
+                          <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-auto-close="false" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
+                          <div class="dropdown-menu" bis_skin_checked="1">
+                            <ul class="navbar-nav me-auto m-auto">
+                              <li class="nav-item enlacesMenu">
+                                <a class="nav-link dropdown-toggle p-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reformas</a>
+                                <div class="collapse " id="collapseExample">
+                                  <div class="navbar-collapse">
+                                  <ul class="navbar-nav flex-column me-auto m-auto">
+                                    <li class="nav-item dropdown ">
+                                      <li class="dropdown-item enlacesMenu text-center"><a  class="nav-link  fs-5" href="reformas_vivienda.html">Viviendas</a></li>
+                                      <li class="dropdown-item enlacesMenu text-center"><a  class="nav-link  fs-5" href="reforma_oficina.html">Oficinas</a></li>
+                                    </li>
+                                  </ul>
+                                  </div>
+                                </div>
+                              </li>
+                          </ul>
+                            <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
+                            <div class="dropdown-divider" bis_skin_checked="1"></div>
+                            <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obra nueva</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link enlacesMenu" href="clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link enlacesMenu" href="contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+                      <div class="mt-5">
+                        <ul class="d-flex justify-content-center align-items-center flex-column list-unstyled">
+                            <li class=""><a href="https://www.instagram.com/herragoncom/" target="_blank" class="bi bi-instagram RS-NAV" title="ver Instagram"></a></li>
+                            <li class=""><a href="https://www.tiktok.com/@herragon_reformas" target="_blank" class="bi bi-tiktok RS-NAV" title="ver Tiktok"></a></li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link enlacesMenu" href="clientes.html">Clientes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link enlacesMenu" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
+                   <!--FIN OFFCANVAS-->
+                  
+                  <div class="collapse navbar-collapse" id="navbarColor04" bis_skin_checked="1">
+                     <ul class="navbar-nav me-auto m-auto">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link enlacesMenu fs-5" href="quienes_somos.html">Quienes Somos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle enlacesMenu fs-5" data-bs-auto-close="false" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<i class="bi bi-caret-down-fill" style="font-size:small;"></i></a>
+                        <div class="dropdown-menu" bis_skin_checked="1">
+                          <ul class="navbar-nav me-auto m-auto">
+                            <li class="nav-item enlacesMenu">
+                              <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Reformas</a>
+                              <div class="collapse " id="collapseExample">
+                                <div class="navbar-collapse">
+                                <ul class="navbar-nav flex-column me-auto m-auto">
+                                  <li class="nav-item dropdown ">
+                                    <li class="dropdown-item enlacesMenu"><a  class="nav-link  fs-5" href="reformas_vivienda.html">Viviendas</a></li>
+                                    <li class="dropdown-item enlacesMenu"><a  class="nav-link  fs-5" href="reforma_oficina.html">Oficinas</a></li>
+                                  </li>
+                                </ul>
+                                </div>
+                              </div>
+                            </li>
+                        </ul>
+                          <a class="dropdown-item enlacesMenu" href="proyectos_especiales.html">Proyectos Especiales</a>
+                          <div class="dropdown-divider" bis_skin_checked="1"></div>
+                          <a class="dropdown-item enlacesMenu fs-5" href="obras_nuevas.html">Obra nueva</a>
+                        </div>
+                      </li>
               
-              <div class="mx-5">
-                <ul class="d-flex justify-content-end list-unstyled mt-3">
-                    <li class="me-3 "><a href="https://www.instagram.com/herragoncom/" target="_blank" class="bi bi-instagram RS-NAV" title="ver Instagram"></a></li>
-                    <li class="me-5"><a href="https://www.tiktok.com/@herragon_reformas" target="_blank" class="bi bi-tiktok RS-NAV" title="ver Tiktok"></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!--FIN NAV-->
+                      <li class="nav-item">
+                        <a class="nav-link enlacesMenu" href="clientes.html">Clientes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link enlacesMenu" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul> 
+                    
+                    
+                    <div class="mx-5">
+                      <ul class="d-flex justify-content-end list-unstyled mt-3">
+                          <li class="me-3 "><a href="https://www.instagram.com/herragoncom/" target="_blank" class="bi bi-instagram RS-NAV" title="ver Instagram"></a></li>
+                          <li class="me-5"><a href="https://www.tiktok.com/@herragon_reformas" target="_blank" class="bi bi-tiktok RS-NAV" title="ver Tiktok"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!--FIN NAV-->
      </header>
 <!------------------------CONTENIDO PRINCIPAL----------------------------->
      <main class="contacto-contenedor">
